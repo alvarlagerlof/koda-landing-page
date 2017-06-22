@@ -63,7 +63,7 @@
   flex: 0 1 calc(50% - 20px);
 }
 
-.download img {
+.download a img {
   width: 100%;
   height: auto;
 }
