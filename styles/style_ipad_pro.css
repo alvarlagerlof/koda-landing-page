@@ -1,0 +1,13 @@
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1024px) and (min-device-height : 1366px) and (max-device-height : 1366px) and (min-width: 1024px) and (max-width: 1024px) {
+  .screenshots {
+    flex-flow: column; wrap;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+
+  .screenshot {
+    margin-bottom: 20px
+  }
+}

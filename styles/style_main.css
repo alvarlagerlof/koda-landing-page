@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  background: linear-gradient(130deg, #4455ad 35%, rgba(232, 203, 192, 0.8));
+  background-color: #4455ad;
+  color: white;
+  padding: 0px 100px;
+}
+
+.header-item {
+  flex: 0 1 calc(50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-item img {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+
+.titleBox {
+  max-width: 400px;
+}
+
+.titleBox h1 {
+  font-size: 80px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.titleBox p {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.4;
+  color: #eff2ff
+}
+
+
+
+.downloads {
+  display: flex;
+  flex-flow: row wrap;
+  width: 400px;
+  margin-top: 50px;
+  margin-left: -10px;
+}
+
+.download {
+  margin: 10px;
+  flex: 0 1 calc(50% - 20px);
+}
+
+.download img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.screenshots {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.screenshot {
+  margin: 4px;
+  flex: 0 1 calc(25% - 8px);
+}
+
+.screenshot img {
+  width: 100%;
+  height: auto;
+}
+
+
+footer {
+  background-color: rgba(0,0,0,0.05);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0,0,0,0.6);
+}
+
+footer img {
+  width: 450px
+}

@@ -1,0 +1,45 @@
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .header {
+    display: flex;
+    flex-flow: row wrap;
+    background: linear-gradient(130deg, #4455ad 35%, rgba(232, 203, 192, 0.8));
+    background-color: #4455ad;
+    color: white;
+    padding: 0px;
+  }
+
+  .header-item {
+    flex: 0 1 calc(50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-item #bigImage {
+    margin-top: 20px;
+  }
+
+  .titleBox {
+    max-width: 70%;
+  }
+  .titleBox h1 {
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .titleBox p {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.4;
+    color: #eff2ff
+  }
+  .download img {
+    width: 170px;
+    height: auto;
+  }
+  .screenshots {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+}
