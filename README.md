@@ -1,4 +1,4 @@
-# 📱 Koda's landing page
+# Koda's landing page
 The landing page for Koda.nu's app
 
 ## Screnshot
